@@ -8,7 +8,7 @@ const themeToggle = document.querySelector("#theme-toggle-btn");
 
 
 // API setup
-const API_KEY="AIzaSyA1XoM5dXlfi1dxJ6GVmezAbSZQNzMJQic";
+const API_KEY="AIzaSyAxDH7sP0E3p91J8LmpZUukRwuNtuUcsyU";
 const API_URL=`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?
 key=${API_KEY}`;
 
@@ -226,4 +226,5 @@ document.querySelector("#home-btn").addEventListener("click", () => {
     // Navigate to home or perform any action
     window.location.href = "index.html";
       // Change to your home page URL
+
 });
